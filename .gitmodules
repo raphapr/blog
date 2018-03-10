@@ -1,3 +1,7 @@
 [submodule "themes/hugo-nuo"]
 	path = themes/hugo-nuo
 	url = https://github.com/raphapr/hugo-nuo
+[submodule "public"]
+	path = public
+	url = git@github.com:raphapr/raphapr.github.io.git
+	branch = master

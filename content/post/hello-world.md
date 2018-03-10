@@ -5,4 +5,3 @@ draft: true
 ---
 
 Hello world! Hugo is awesome.
-
