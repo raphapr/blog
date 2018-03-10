@@ -1,0 +1,38 @@
+baseURL = "http://raphapr.github.io"
+languageCode = "en-us"
+title = "Raphael P. R."
+theme = "hugo-nuo"
+
+# Disqus Username
+disqusShortname = "raphaprr"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 10
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 20
+  identifier = "tags"
+  url = "/tags/"
+
+[[menu.main]]
+  name = "Github"
+  weight = 30
+  identifier = "github"
+  url = "https://github.com/raphapr"
+
+[params]
+  author = "Raphael P. R."
+  avatar = "/images/avatar.png"
+  seotitle = "Raphael P. R."
+  subtitle = "Keep It Simple and Stupid"
+  description = "A small corner of the internet which I can just talk about everything that I learned recently"
+  paginate = 10
+
+  # social networks
+  email = "raphaelpr01@gmail.com"
+  github = "raphapr"
+  linkedin = "raphaelpr"
