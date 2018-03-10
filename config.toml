@@ -1,4 +1,4 @@
-baseURL = "http://raphapr.github.io"
+baseURL = "https://raphapr.github.io"
 languageCode = "en-us"
 title = "Raphael P. R."
 theme = "hugo-nuo"

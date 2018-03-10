@@ -1,3 +1,3 @@
 ## raphapr blog
 
-Repository of my [blog](http://raphapr.github.io).
+Repository of my [blog](https://raphapr.github.io).
