@@ -26,5 +26,6 @@ deploy:
 	@hugo -D -t $(THEME)
 	@cd public \
 	&& git add . \
-	&& git commit -m "rebuild site $(date)"
+	&& git commit -m "rebuild site $(shell date)" \
+	&& git push origin master
 	@echo "Site is deployed!"
