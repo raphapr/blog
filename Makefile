@@ -1,9 +1,6 @@
 HUGO_VERSION = 0.64.0
 THEME = strange-case
 
-.PHONY: setup
-setup: modules-update get
-
 .PHONY: get
 get:
 	@echo "Checking for hugo"
@@ -19,6 +16,13 @@ get:
 .PHONY: modules-update
 modules-update:
 	git submodule update --recursive
+
+.PHONY: setup
+setup: modules-update get
+
+.PHONY: server
+server:
+	@hugo server -D
 
 .PHONY: deploy
 deploy:
