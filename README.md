@@ -1,3 +1,25 @@
-## raphapr blog
+# raphapr blog
 
-Repository of my [blog](https://raphapr.github.io).
+Repository of [https://raphap.github.io](https://raphapr.github.io).
+
+## setup
+
+install hugo and dependencies
+
+```
+make setup
+```
+
+## deploy
+
+create any content and deploy it
+
+```
+make deploy
+```
+
+## run local hugo server
+
+```
+make server
+```
