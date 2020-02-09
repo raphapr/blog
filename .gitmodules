@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:raphapr/raphapr.github.io.git
 	branch = master
+[submodule "themes/strange-case"]
+	path = themes/strange-case
+	url = https://github.com/raphapr/strange-case

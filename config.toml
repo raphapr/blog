@@ -1,38 +1,25 @@
-baseURL = "https://raphapr.github.io"
-languageCode = "en-us"
+baseurl = "https://raphapr.github.io"
 title = "Raphael P. R."
-theme = "hugo-nuo"
+author = "Raphael P. R."
+canonifyurls = true
+paginate = 5
 
-# Disqus Username
-disqusShortname = "raphaprr"
-
-[[menu.main]]
-  name = "Blog"
-  weight = 10
-  identifier = "blog"
-  url = "/"
-
-[[menu.main]]
-  name = "Tags"
-  weight = 20
-  identifier = "tags"
-  url = "/tags/"
-
-[[menu.main]]
-  name = "Github"
-  weight = 30
-  identifier = "github"
-  url = "https://github.com/raphapr"
+theme = "strange-case"
 
 [params]
-  author = "Raphael P. R."
-  avatar = "/images/avatar.png"
-  seotitle = "Raphael P. R."
-  subtitle = "Keep It Simple and Stupid"
-  description = "A small corner of the internet which I can just talk about everything that I learned recently"
-  paginate = 10
+	colorScheme = "scheme-darkbrown"
+	DateFormat = "2 Jan 2006"
+    description = "Cloud Engineering"
+	sidebarFreeText = "A small corner of the internet which I just talk about everything I learned recently"
 
-  # social networks
-  email = "raphaelpr01@gmail.com"
-  github = "raphapr"
-  linkedin = "raphaelpr"
+[[menu.main]]
+	name = "github"
+	url = "https://github.com/raphapr"
+
+[[menu.main]]
+	name = "LinkedIn"
+	url = "https://www.linkedin.com/in/raphaelpr/"
+
+[[menu.main]]
+	name = "Email"
+	url = "mailto:raphaelpr01@gmail.com"
